@@ -1,6 +1,6 @@
 # Quality
 
-# Code can be self-documenting.
+## Code can be self-documenting.
 
 Here, I have authored a very captivating and touching story about the love one user has for an unfamiliar animal, and the unsuspected disdain the animal exhibits for the user.
 
