@@ -79,8 +79,8 @@ Cool, it looks clean, brief, bad ass. But if we were to get rid of the assigned 
 
 ## Name it what it is
 
-> The act of naming things
-> proves difficult for humans
+> The act of naming things  
+> proves difficult for humans  
 > who have to think about it.
 
 - _Matsuo Basho, Poet_
