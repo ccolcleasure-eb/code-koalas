@@ -305,7 +305,6 @@ Data driven development.
 // We do nottttt need?.this?.everywhere because we should
 // determine at the beginning if a piece of data exists, and
 // if not, provide a default that will not break our logic.
-
-// That said, the best code would take a different route depending
-// on the presence of data, rather than just hope for its existence. =P
+// At least when nullish defaulting we can trust the data
+// as it marches forth. :)
 ```
