@@ -47,15 +47,23 @@ const makePet = !bitten;
 const done = true;
 ```
 
-- **NOTE: Keystrokes / LOC are friend, not food.**
-  Be not dazzled with all the saved keystrokes, because keystrokes are hardly the enemy. We perform more keystrokes in daily communication and planning (u do plan rite? XD) han we actually do in the code editor every day.
-  _(If anything, the uncontested 80 character limit per line of code enforced by Prettier by default is the enemy. 😒)_
-  The less keystrokes we make, the more obscure our code becomes. Same with lines-of-code. Our ability to write brief code is the antagonist to our ability to write easy-to-interpret, descriptive, self-documenting, maintainable code.
-  With good naming and descriptive code, we should never need this:
-  ```jsx
-  // Clones the candidate object
-  const newObject = { ...oldObject };
-  ```
+<details>
+  <summary>
+    NOTE: Keystrokes / LOC are friend, not food.
+  </summary>
+Be not dazzled with all the saved keystrokes, because keystrokes are hardly the enemy. We perform more keystrokes in daily communication and planning than we actually do in the code editor every day.  
+<br/><br/>
+*(If anything, the uncontested 80 character limit per line of code enforced by Prettier by default is the enemy. 😒)*
+<br/><br/>
+The less keystrokes we make, the more obscure our code becomes. Same with lines-of-code. Our ability to write brief code is the antagonist to our ability to write easy-to-interpret, descriptive, self-documenting, maintainable code.
+
+With good naming and descriptive code, we should never need this:
+
+```jsx
+// Clones the candidate object
+const newObject = { ...oldObject }
+```
+</details>
 
 Cool, it looks clean, brief, bad ass. But if we were to get rid of the assigned values and determine what all of these references actually referred to, we’d be up a creek without a paddle.
 
