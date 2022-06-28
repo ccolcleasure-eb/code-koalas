@@ -168,6 +168,19 @@ const applicationCount = applications.length;
 const numberOfWords = "sup dude".split(" ").length;
 ```
 
+> **Functions should be named like a verb phrase.**
+
+```jsx
+const getFooFromBar = (bar) => { /* ... */ }
+const combineSomething = (some, thing) => { /* ... */ }
+const determineSomething = (..args) => { /* ... */ }
+const verbIt = (it) => { /* ... */ }
+
+// Perform a check (verb) that results in a boolean.
+const checkIsInputValid = (bar) => { /* ... */ }
+
+```
+
 ---
 
 ## Writing good code.
